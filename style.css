@@ -1,1 +1,62 @@
+/* styles.css */
+body {
+    background-color: #81ebb4; /* Fondo oscuro */
+    color: #0b0b0b; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centrando el texto dentro del body */
+}
 
+.container {
+    background-color: #ffffff; /* Fondo oscuro para el contenedor */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    width: 90%;
+}
+
+h1 {
+    color: #ff5733; /* Título en rojo fuerte */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #33c3ff; /* Subtítulo en azul fuerte */
+}
+
+h3 {
+    color: #ffcc33; /* Subtítulo en amarillo fuerte */
+}
+
+p {
+    color: #000000; /* Texto en gris claro */
+}
+
+a {
+    color: #ff5733; /* Enlaces en rojo fuerte */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc33; /* Cambio de color al pasar el mouse */
+}
+
+.images {
+    margin-top: 30px;
+}
+
+.images img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 10px auto; /* Centrar imágenes */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    display: block;
+}
